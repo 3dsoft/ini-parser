@@ -1,17 +1,17 @@
 # INI File Parser
 
-A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, file streams, and strings written in C#.
+.NET과 Mono, Unity3d에서 INI 파일을 액세스하기 위해 C#으로 만든 프로그램입니다.
 
 Also implements merging operations, both for complete ini files, sections, or even just a subset of the keys contained by the files.
 
 
-(*) This library is 100% .NET code and does not have any dependencies on Windows API calls in order to be portable.
+(*) 이 라이브러리는 독립적으로 사용하기 위해 어떠한 외부 코드도 포함하지 않은, 100% .NET 코드로 만들었습니다.
 
 [![Build Status](https://travis-ci.org/rickyah/ini-parser.png?branch=master)](https://travis-ci.org/rickyah/ini-parser)
 
 
-Get the latest version: https://github.com/rickyah/ini-parser/releases/latest
-Install it with NuGet: https://www.nuget.org/packages/ini-parser/
+최신 버전: https://github.com/rickyah/ini-parser/releases/latest
+NuGet으로 설치 : https://www.nuget.org/packages/ini-parser/
 
 ## Version 2.0
 Since the INI format isn't really a "standard", version 2 introduces a simpler way to customize INI parsing:
